@@ -19,18 +19,18 @@ import Event from "./Event";
             <tbody>
             <tr>
                 <td className="time">8 am</td>
-                <Event event = 'Fancy Dinner'  color ='green'/>
+                <Event event = 'Fancy Dinner'  color ='green' location="Fantasy"/>
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td>
+                <Event event='Soda' color = 'blue' location="Disney Land"></Event>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
                 <td className="time">9 am</td>
                 <td></td>
-                <td></td>
+                <Event event ='Pool' color='yellow' location="Miami"></Event>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -41,7 +41,7 @@ import Event from "./Event";
                 <td className="time">10 am</td>
                 <td></td>
                 <td></td>
-                <td></td>
+                <Event event='Flowers' color='brown' location="Stuart"></Event>
                 <td></td>
                 <td></td>
                 <td></td>

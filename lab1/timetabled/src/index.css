@@ -33,9 +33,15 @@ td{
 .pink {
   background:pink;
 }
+.brown{
+  background:rgb(120, 85, 25);
+}
+.yellow{
+  background:rgb(253, 227, 0);
+}
 
 .blue {
-  background:rgb(190, 219, 229);
+  background:rgb(18, 90, 234);
 }
 
 .green {
